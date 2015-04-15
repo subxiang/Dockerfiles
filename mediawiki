@@ -1,0 +1,4 @@
+FROM tutum/lamp
+MAINTAINER Jason Li <darkart@gmail.com>
+ADD mediawiki-1.24.1.tar.gz /var/www/html/
+RUN ln -s /var/www/html/mediawiki-1.24.1 /var/www/html/mediawiki
